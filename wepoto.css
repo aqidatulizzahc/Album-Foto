@@ -28,3 +28,8 @@ h1 {
 .gambar:last-child {
   margin-right: 0;
 }
+.gambar:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+  box-shadow: 0px 11px 15px 4px rgba(0, 0, 0, 0.1);
+}
